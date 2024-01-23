@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+.row {
+    display: flex;
+}
